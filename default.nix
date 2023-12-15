@@ -4,5 +4,6 @@ with pkgs;
 mkShell {
     buildInputs = [
         python312
+        git
     ]; 
 }
